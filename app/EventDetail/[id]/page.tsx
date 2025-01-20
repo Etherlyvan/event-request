@@ -10,7 +10,7 @@ import { notFound } from 'next/navigation';
 // Menggunakan type definition yang benar untuk Next.js page props
 type Props = {
     params: Promise<{ id: string }>
-    searchParams?: { [key: string]: string | string[] | undefined }
+
 }
 
 export default async function EventDetailPage({ params }: Props) {

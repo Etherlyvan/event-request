@@ -8,16 +8,13 @@ import EventDetail from '@/app/components/EventDetail';
 import { notFound } from 'next/navigation';
 
 // Menggunakan type definition yang benar untuk Next.js page props
-interface Props {
-    params: {
-        id: string;
-    };
-    searchParams: { [key: string]: string | string[] | undefined };
+type Props = {
+    params: Promise<{ id: string }>
+    searchParams?: { [key: string]: string | string[] | undefined }
 }
 
 export default async function EventDetailPage({ params }: Props) {
-    // ... existing code ...
-    const { id } = params;
+    const { id } = await params; // Menunggu params jika itu adalah Promise
     const event = await getEventById(id);
     const timeline = getTimelineByEventId(id);
     const prizes = eventPrizes[id];

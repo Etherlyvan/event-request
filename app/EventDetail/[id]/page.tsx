@@ -7,19 +7,21 @@ import {
 import EventDetail from '@/app/components/EventDetail';
 import { notFound } from 'next/navigation';
 
-interface EventDetailPageProps {
+// Menggunakan type definition yang benar untuk Next.js page props
+interface Props {
     params: {
         id: string;
     };
+    searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default async function EventDetailPage({ params }: EventDetailPageProps) {
+export default async function EventDetailPage({ params }: Props) {
+    // ... existing code ...
     const { id } = params;
     const event = await getEventById(id);
     const timeline = getTimelineByEventId(id);
     const prizes = eventPrizes[id];
     const requirements = eventRequirements[id];
-    // Venue menjadi opsional, tidak perlu dipass jika tidak ada datanya
 
     if (!event) {
         notFound();

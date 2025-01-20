@@ -1,0 +1,150 @@
+.joinSection {
+    padding: 6rem 2rem;
+    background: linear-gradient(180deg, #0A192F 0%, #4A2B3B 100%);
+    color: white;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 0px #FF7F6A;
+    transform: rotate(-2deg);
+  }
+  
+  .requirements {
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .downloadText {
+    color: #40E0D0;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    transform: rotate(-1deg);
+  }
+  
+  .requirementsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .requirementsList li {
+    flex: 0 1 300px;
+    transform: rotate(1deg);
+  }
+  
+.requirementsList a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem;
+  background: rgba(255, 127, 106, 0.5); /* Membuat lebih transparan */
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 0px rgba(64, 224, 208, 0.8);
+  backdrop-filter: blur(5px);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.requirementsList a:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0px rgba(64, 224, 208, 0.8);
+  background: rgba(255, 127, 106, 1);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.registerButton {
+  display: block;
+  width: fit-content;
+  margin: 3rem auto;
+  background: rgba(64, 224, 208, 0.6); /* Membuat lebih transparan */
+  color: white;
+  padding: 1.2rem 3.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  transition: all 0.3s ease;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 5px 5px 0px rgba(255, 127, 106, 0.8);
+  transform: rotate(-1deg);
+  backdrop-filter: blur(5px);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.registerButton:hover {
+  transform: rotate(1deg) translate(-3px, -3px);
+  box-shadow: 8px 8px 0px rgba(255, 127, 106, 0.8);
+  background: rgba(64, 224, 208, 0.1);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+  .contactSection {
+    margin-top: 5rem;
+    text-align: center;
+    transform: rotate(-1deg);
+  }
+  
+  .contactTitle {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #40E0D0;
+  }
+  
+  .contactInfo {
+    display: inline-block;
+    margin: 0.8rem;
+    padding: 1rem 2rem;
+    background: rgba(64, 224, 208, 0.6);
+    border-radius: 30px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 0px #FF7F6A;
+  }
+  
+  .contactInfo:hover {
+    transform: rotate(2deg) scale(1.05);
+    box-shadow: 5px 5px 0px #FF7F6A;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 3.5rem;
+    }
+    
+    .requirementsList {
+      gap: 1rem;
+    }
+    
+    .requirementsList li {
+      flex: 0 1 100%;
+    }
+    
+    .contactTitle {
+      font-size: 2.3rem;
+    }
+  }
+  

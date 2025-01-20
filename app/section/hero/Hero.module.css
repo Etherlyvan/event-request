@@ -1,0 +1,145 @@
+/* app/section/hero/Hero.module.css */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('/Bg1.svg') no-repeat center center;
+    background-size: cover;
+    height: 840px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+}
+
+.content {
+    max-width: 50%;
+    padding-left: 160px;
+}
+
+
+
+.subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding-left: 20px;
+}
+
+/* app/section/hero/Hero.module.css */
+.participate, .more {
+    background: linear-gradient(90deg, #ff6f61, #00c6ff); /* Gradasi dari merah ke biru */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px; /* Tambahkan margin bawah untuk spasi antar tombol */
+    cursor: pointer;
+    border-radius: 20px; /* Membuat sudut membulat */
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-align: center;
+}
+
+.participate:hover, .more:hover {
+    opacity: 0.8; /* Efek hover */
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 50%;
+}
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .hero {
+        height: 700px;
+        padding: 20px;
+    }
+
+    .content {
+        padding-left: 40px;
+        max-width: 60%;
+    }
+
+    .titleImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .image img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 0 20px; /* Hilangkan padding top & bottom */
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; /* Center secara vertical */
+    }
+
+    .content {
+        padding-left: 0;
+        max-width: 100%;
+        order: 0;
+        margin: auto 0; /* Tambahkan margin auto untuk vertical center */
+        padding-top: 200px; /* Tambah spacing atas */
+    }
+
+    .buttons {
+        align-items: center;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .participate, .more {
+        width: 200px;
+    }
+
+    .image {
+        position: relative;
+        order: 1;
+        max-width: 100%;
+        margin: auto 0 0 0; /* Auto di atas, 0 di bawah untuk push ke bawah */
+    }
+
+    .image img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        transform: translateY(4px); /* Tetap mepet bawah */
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .hero {
+        padding: 0 15px;
+    }
+
+    .participate, .more {
+        width: 180px;
+    }
+
+    .image img {
+        width: 90%;
+    }
+}

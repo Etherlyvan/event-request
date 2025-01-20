@@ -1,0 +1,274 @@
+.eventsWrapper {
+    background-color: #ffffff;
+    background-image: url("https://res.cloudinary.com/dbftqxgwn/image/upload/v1737293584/CEIC/bgevent_ubfqk4.svg");
+    background-position: center top; /* Diubah ke top */
+    background-repeat: no-repeat;
+    min-height: 180vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: cover; /* Diubah menjadi cover untuk semua ukuran */
+}
+
+.eventsSection {
+    padding: 100px 0;
+    flex: 1;
+}
+
+.eventsContent {
+    max-width: 1400px; /* Diperbesar dari 1200px */
+    margin: 0 auto;
+    padding: 0 40px; /* Diperbesar dari 20px */
+    text-align: center;
+}
+
+.eventsContent h1 {
+    color: white;
+    font-size: 4rem; /* Diperbesar dari 3rem */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.eventsContent p {
+    color: white;
+    font-size: 1.4rem; /* Diperbesar dari 1.2rem */
+    margin-bottom: 60px; /* Diperbesar dari 40px */
+    line-height: 1.6;
+}
+
+.eventSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* Diperbesar dari 20px */
+}
+
+.eventCard {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 32px; /* Diperbesar dari 24px */
+    padding: 60px; /* Diperbesar dari 40px */
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr; /* Diubah rasionya */
+    gap: 60px; /* Diperbesar dari 40px */
+    max-width: 1200px; /* Diperbesar dari 1000px */
+    margin: 0 auto;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 0.5s ease;
+}
+
+.eventInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; /* Diperbesar dari 24px */
+    justify-content: center;
+    padding-left: 60px; /* Diperbesar dari 50px */
+}
+
+.logoContainer {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px; /* Diperbesar dari 12px */
+    padding: 16px; /* Diperbesar dari 12px */
+    width: 64px; /* Diperbesar dari 48px */
+    height: 64px; /* Diperbesar dari 48px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventHeader {
+    display: flex;
+    margin-bottom: -60px; /* Disesuaikan */
+    width: 100%;
+}
+
+.eventLogo {
+    width: 450px; /* Diperbesar dari 386px */
+    height: 240px; /* Diperbesar dari 200px */
+    object-fit: contain;
+    filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.2));
+}
+
+.dateContainer {
+    padding: 0px 40px; /* Diperbesar dari 30px */
+    text-align: left;
+    height: fit-content;
+    margin-bottom: 12px; /* Diperbesar dari 8px */
+}
+
+.eventDate {
+    font-size: 1.8rem; /* Diperbesar dari 1.5rem */
+    font-weight: 700; /* Diperbesar dari 600 */
+    color: #ffffff;
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #e0e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.eventTheme {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 22px; /* Diperbesar dari 18px */
+    line-height: 1.7;
+    margin: 0;
+    padding-left: 15px; /* Diperbesar dari 10px */
+    text-align: left;
+    margin-bottom: 24px; /* Diperbesar dari 16px */
+}
+
+.eventInfo h3 {
+    color: white;
+    font-size: 32px; /* Diperbesar dari 24px */
+    font-weight: 700; /* Diperbesar dari 600 */
+    margin: 0;
+    background: linear-gradient(to right, #ffffff, #e0e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.eventInfo p {
+    font-size: 1.2rem; /* Diperbesar dari 1rem */
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.7;
+}
+
+.eventInfo p strong {
+    color: #F07167;
+    font-weight: 700; /* Diperbesar dari 600 */
+}
+
+.learnMore {
+    background: linear-gradient(to right, #2dd4bf, #3b82f6);
+    color: white;
+    border: none;
+    padding: 16px 32px; /* Diperbesar dari 12px 24px */
+    border-radius: 9999px;
+    font-size: 18px; /* Diperbesar dari 16px */
+    font-weight: 600; /* Diperbesar dari 500 */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.learnMore:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
+}
+
+.eventImage {
+    position: relative;
+    border-radius: 24px; /* Diperbesar dari 16px */
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.sliderButton {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 50px; /* Diperbesar dari 40px */
+    height: 50px; /* Diperbesar dari 40px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Diperbesar dari 20px */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sliderButton:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .eventCard {
+        grid-template-columns: 1fr;
+        padding: 40px;
+        gap: 40px;
+        margin: 0 20px;
+    }
+
+    .eventInfo {
+        padding-left: 0;
+    }
+
+    .eventLogo {
+        width: 300px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .eventsWrapper {
+        background-size: cover; /* Diubah menjadi cover */
+        background-position: center top; /* Disesuaikan ke atas */
+        min-height: 180vh;
+    }
+
+
+    .eventsContent h1 {
+        font-size: 2.5rem;
+    }
+
+    .eventsContent p {
+        font-size: 1.1rem;
+    }
+
+    .eventDate {
+        font-size: 1.4rem;
+    }
+
+    .eventTheme {
+        font-size: 18px;
+    }
+
+    .eventInfo h3 {
+        font-size: 24px;
+    }
+
+    .eventInfo p {
+        font-size: 1rem;
+    }
+
+    .eventHeader {
+        margin-bottom: -40px;
+    }
+
+    .eventLogo {
+        width: 200px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .eventsWrapper {
+        background-size: cover; /* Diubah menjadi cover */
+        background-position: center top;
+    }
+}

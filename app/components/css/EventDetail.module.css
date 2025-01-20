@@ -1,0 +1,218 @@
+.eventWrapper {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #001B3B;
+    height: auto;
+    box-sizing: border-box;
+}
+.backgroundLayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+.waveOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://res.cloudinary.com/dbftqxgwn/image/upload/v1737347004/CEIC/bgwave_bjr32e.svg');
+    background-size: cover;
+    background-position: top; 
+    background-repeat: no-repeat;
+    z-index: 1;
+    min-height: 100%;
+}
+
+.contentContainer {
+    position: relative;
+    z-index: 2;
+    padding: 40px 100px;
+    color: white;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+.headerContent {
+    margin-bottom: 2rem;
+}
+  
+.logoContainer {
+    display: flex;
+    align-items: start;
+    padding-bottom: 110px;
+    padding-top: 80px;
+}
+.logo {
+    width: 1000px;
+    height: auto;
+}
+  
+  .titleText {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titleSmall {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 4px 0;
+  }
+  
+.quoteSection {
+    margin: 2rem 0;
+    max-width: 700px;
+    padding: 80px;
+}
+.subtitle {
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    font-style: italic;
+}
+  .aboutSection {
+    width: 100%;
+    padding: 6rem 0;
+    text-align: justify;
+  }
+  
+  .about {
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+  
+  .description {
+    font-size: 1.6em;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .timelineSection {
+    position: relative;
+    padding: 4rem 0;
+    background: linear-gradient(180deg, #001B3B 0%, #000B1A 100%);
+  }
+  
+  .timelineContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .venueCard {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .venueCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .timelineContainer {
+      padding: 0 1rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .backgroundLayer {
+        background-position: bottom center; /* Fokus ke bagian bawah di tablet */
+    }
+    .contentContainer {
+        width: 95%;
+        padding: 30px 16px;
+    }
+
+
+    .logoContainer {
+        padding-bottom: 40px;
+    }
+    .logo {
+        max-width: 600px;
+    }
+
+
+    .quoteSection {
+        margin: 1.5rem 0;
+    }
+
+    .aboutSection {
+        padding: 2rem 0;
+        width: 100%;
+    }
+    .logoTitleGroup {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .titleText {
+      align-items: flex-start;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .titleSmall {
+      font-size: 1rem;
+    }
+  
+    .subtitle {
+      font-size: 1rem;
+    }
+  
+    .about {
+      font-size: 2rem;
+    }
+  
+    .description {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 480px) {
+    .backgroundLayer {
+        background-position: bottom center; /* Fokus ke bagian bawah di mobile */
+    }
+    .contentContainer {
+        width: 100%;
+        padding: 20px 24px;
+        padding-top: 100px;
+    }
+    .logoContainer {
+        padding-bottom: 180px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .logo {
+        max-width: 100%;
+    }
+    .quoteSection {
+        margin: 1rem 0;
+        max-width: 160px;
+        padding:1.5rem 0 ;
+    }
+    .aboutSection {
+        padding: 1.5rem 0;
+    }
+}

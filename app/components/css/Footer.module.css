@@ -1,0 +1,120 @@
+.footer {
+    background: transparent;
+    padding: 40px 0px;
+    margin: 50px 0px;
+    width: 100%;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+.logoText {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  
+  .logoText p {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  .aboutSection {
+  text-align: center;  /* Membuat about section center */
+}
+
+.contactSection {
+  text-align: right;  /* Membuat contact section rata kanan */
+}
+
+  .aboutSection h3,
+  .contactSection h3 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .aboutSection p,
+  .contactSection p {
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+
+  .socialLinks {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;  /* Menambahkan ini untuk membuat items center */
+  }
+  
+  
+  .socialLinks img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .socialLinks img:hover {
+    opacity: 0.8;
+  }
+  .socialIcon {
+    width: 24px;
+    height: 24px;
+    color: white;
+    transition: opacity 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    opacity: 0.8;
+  }
+  @media (max-width: 768px) {
+    .footerContent {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .logoContainer {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .logoText {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+
+      .contactSection {
+        text-align: center; 
+        align-items: center;
+      }
+      .logoContainer {
+        flex-direction: column;
+        align-items: center;
+      }
+    .logoSection {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .socialLinks {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

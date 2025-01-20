@@ -1,0 +1,190 @@
+.prizesSection {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1a2b3c 0%, #2d4356 100%);
+    color: white;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: linear-gradient(to right, #ffd700, #ff7b7b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.grabPrizeButton {
+    background: linear-gradient(45deg, #ff7b7b, #ff5f5f);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 20px rgba(255, 123, 123, 0.3);
+}
+
+.grabPrizeButton:hover {
+    transform: translateY(-3px);
+}
+
+.buttonGlow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+    animation: rotate 4s linear infinite;
+}
+
+.prizesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.prizeCard {
+    flex: 0 1 300px;
+    padding: 2rem;
+    border-radius: 20px;
+    transform: translateY(0);
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prizeCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.place1 {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 215, 0, 0.05));
+}
+
+.place2 {
+    background: linear-gradient(135deg, rgba(192, 192, 192, 0.1), rgba(192, 192, 192, 0.05));
+}
+
+.place3 {
+    background: linear-gradient(135deg, rgba(205, 127, 50, 0.1), rgba(205, 127, 50, 0.05));
+}
+
+.prizeContent {
+    position: relative;
+    z-index: 1;
+}
+
+.trophyIcon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+}
+
+.place1 .trophyIcon {
+    color: #ffd700;
+}
+
+.place2 .trophyIcon {
+    color: #c0c0c0;
+}
+
+.place3 .trophyIcon {
+    color: #cd7f32;
+}
+
+.placeNumber {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+.placeTitle {
+    color: #ffd700;
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.prizeAmount {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.currency {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-right: 0.5rem;
+}
+
+.prizeDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+}
+
+.prizeDetails span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.andMore {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 768px) {
+    .prizesContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prizeCard {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+}

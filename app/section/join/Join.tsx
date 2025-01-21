@@ -62,9 +62,9 @@ const JoinSection: React.FC<JoinSectionProps> = ({ eventId, requirements }) => {
 
         <div className={styles.contactSection}>
           <h3 className={styles.contactTitle}>Contact Person</h3>
-          {requirements.contactPersons.map((contact: { phone: string }, index: number) => (
+          {requirements.contactPersons.map((contact: { name: string; phone: string }, index: number) => (
             <p key={index} className={styles.contactInfo}>
-              {contact.phone}
+              {contact.name}: {contact.phone}
             </p>
           ))}
         </div>

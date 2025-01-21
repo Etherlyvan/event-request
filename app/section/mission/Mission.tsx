@@ -6,7 +6,7 @@ const Mission = () => {
     <section className={styles.mission}>
       <div className={styles.container}>
       <div className={styles.theme}>
-          &ldquo;Smart Bridges and Disaster Resilience Using BIM Technology Innovation to Achieve Sustainable Development Goals&rdquo;
+          &ldquo;Integrating Technology with Strategies for SDGs-Based Infrastructure Resilience&rdquo;
         </div>
         
         <h2>Our Mission</h2>

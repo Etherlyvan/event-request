@@ -55,7 +55,7 @@ export const events: EventDetail[] = [
       src: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
       alt: "Bridge Design Logo"
     },
-    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737347094/CEIC/dam1_b3mmu6.svg"
+    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737431046/CEIC/ibdcbg_bttt0b.webp"
   },  
   {
     id: "ipic",
@@ -145,12 +145,12 @@ export interface TimelineItem {
       items: [
         { date: 'January 22th - February 4th 2025', title: 'Open Registration Batch 1', color: 'coral' },
         { date: 'February 5th - March 5th 2025', title: 'Open Registration Batch 2', color: 'turquoise' },
-        { date: 'March 7th 2025', title: 'Rise Studi Kasus', color: 'coral' },
+        { date: 'March 7th 2025', title: 'Rilis Studi Kasus', color: 'coral' },
         { date: 'March 8th 2025', title: 'Technical Meeting Peserta', color: 'coral' },
         { date: 'March 9th - April 7th 2025', title: 'Pengerjaan dan Pengumpulan Proposal Lomba', color: 'coral' },
         { date: 'April 4th 2025', title: 'Technical Meeting Juri', color: 'turquoise' },
         { date: 'April 7th - April 30th 2025', title: 'Penilaian Makalah Lomba', color: 'turquoise' },
-        { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis COF Final Element', color: 'coral' },
+        { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR Final Element', color: 'coral' },
         { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
         { date: 'May 12th 2025', title: 'Technical Meeting Juri (Final)', color: 'turquoise' },
         { date: 'May 11th 2025', title: 'Pengumpulan Video dan Poster', color: 'coral' },
@@ -284,13 +284,13 @@ export interface Prize {
 
 export const eventPrizes: Record<string, Prize[]> = {
     ibdc: [
-        { place: '1st Place', amount: 15000000, details: 'Trophy and Certificate' },
-        { place: '2nd Place', amount: 10000000, details: 'Trophy and Certificate' },
-        { place: '3rd Place', amount: 5000000, details: 'Trophy and Certificate' }
+        { place: '1st Place', amount: 9000000, details: 'Trophy and Certificate' },
+        { place: '2nd Place', amount: 6000000, details: 'Trophy and Certificate' },
+        { place: '3rd Place', amount: 4000000, details: 'Trophy and Certificate' }
     ],
     ipic: [
-        { place: '1st Place', amount: 5000000, details: 'Trophy and Plaque + Certificate' },
-        { place: '2nd Place', amount: 4000000, details: 'Trophy and Plaque + Certificate' },
+        { place: '1st Place', amount: 7000000, details: 'Trophy and Plaque + Certificate' },
+        { place: '2nd Place', amount: 5000000, details: 'Trophy and Plaque + Certificate' },
         { place: '3rd Place', amount: 3000000, details: 'Trophy and Plaque + Certificate' }
     ],
     idic: [
@@ -362,9 +362,6 @@ export interface ContactPerson {
         ]
     },
     "bimworkshop": {
-        termOfReference: "https://drive.google.com/file/earthquake-tor",
-        registrationForm: "https://drive.google.com/file/earthquake-form",
-        proposal: "https://drive.google.com/file/earthquake-proposal", 
         registrationLink: "https://forms.gle/earthquake-registration",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },
@@ -372,9 +369,6 @@ export interface ContactPerson {
         ]
     },
     "companyexpo": {
-        termOfReference: "https://drive.google.com/file/earthquake-tor",
-        registrationForm: "https://drive.google.com/file/earthquake-form",
-        proposal: "https://drive.google.com/file/earthquake-proposal", 
         registrationLink: "https://forms.gle/earthquake-registration",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },

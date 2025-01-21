@@ -120,7 +120,7 @@ export const events: Event[] = [
     description: "Seminar nasional yang mempertemukan pemangku kepentingan, akademisi, dan praktisi teknik sipil untuk berbagi gagasan inovatif.",
     date: "2025-05-17",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296733/CEIC/semnas_nqqcxt.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296733/CEIC/semnas_nqqcxt.svg",
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737429831/CEIC/compexcard_mptcl6.svg",
     slug: "semnas"
   },
   {
@@ -130,7 +130,7 @@ export const events: Event[] = [
     date: "2025-02-20",
     slug: "ibdc",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296428/CEIC/IBDc_r5ktrj.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296428/CEIC/IBDc_r5ktrj.svg",
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430544/CEIC/ibdccard_iurpgu.png",
     
   },
   {
@@ -140,7 +140,7 @@ export const events: Event[] = [
     date: "2025-03-10",
     slug: "ibic",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430865/CEIC/ibiccard_zbeysb.svg"
   },
   {
     title: "International Paper Innovation Contest",
@@ -158,7 +158,7 @@ export const events: Event[] = [
     date: "2025-05-15",
     slug: "idic",    
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296426/CEIC/idic_ppvqds.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296426/CEIC/idic_ppvqds.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430327/CEIC/idiccard_jh8wtu.svg"
   },
   {
     title: "Company Expo",
@@ -167,7 +167,7 @@ export const events: Event[] = [
     date: "2025-05-17",
     slug: "companyexpo",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296429/CEIC/expo_g1a5xn.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296429/CEIC/expo_g1a5xn.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737429831/CEIC/compexcard_mptcl6.svg"
   },
   {
     title: "BIM Workshop",
@@ -176,7 +176,7 @@ export const events: Event[] = [
     date: "2025-02-22",
     slug: "bimworkshop", 
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430054/CEIC/ibiccard2_awictb.svg"
   }
 ];
 

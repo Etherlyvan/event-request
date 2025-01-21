@@ -34,7 +34,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <p>GedungTeknik Sipil, Kampus Universitas Diponegoro, Semarang, 1624</p>
           <p>+62</p>
-          <p>ceic.seasonxiii@gmail.com</p>
+          <p>ceicseason.xiii@gmail.</p>
         </div>
         
 

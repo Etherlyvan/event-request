@@ -4,7 +4,9 @@ import About from "@/app/section/about/About";
 import Mission from "@/app/section/mission/Mission";
 import Events from "@/app/section/event/Event";
 
+
 export default function Home() {
+
   return (
     <div>
       <Hero />

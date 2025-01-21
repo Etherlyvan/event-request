@@ -66,7 +66,7 @@ export const eventDetails: Record<string, EventDetail> = {
       .join('\n'),
     pendaftaran: "https://example.com/register",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430865/CEIC/ibiccard_zbeysb.svg"
   },
   "IPIC": {
     tema: "\"Engineering Beyond Boundaries: Innovative Solutions for Tomorrow's Infrastructure Challenges\"",
@@ -140,7 +140,7 @@ export const events: Event[] = [
     date: "2025-03-10",
     slug: "ibic",
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430865/CEIC/ibiccard_zbeysb.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430054/CEIC/ibiccard2_awictb.svg"
   },
   {
     title: "International Paper Innovation Contest",
@@ -176,7 +176,7 @@ export const events: Event[] = [
     date: "2025-04-18",
     slug: "bimworkshop", 
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg",
-    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430054/CEIC/ibiccard2_awictb.svg"
+    image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737429840/CEIC/bimcard_ujjdcv.svg"
   }
 ];
 

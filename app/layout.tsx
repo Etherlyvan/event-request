@@ -13,10 +13,8 @@ export const metadata = {
   title: "CEIC",
   description: "Civil Engineering Innovation Contest",
   icons: {
-    icon: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737273155/CEIC/LogoNavBar_kbtiba.svg", 
-    shortcut: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737273155/CEIC/LogoNavBar_kbtiba.svg",
-    apple: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737273155/CEIC/LogoNavBar_kbtiba.svg", 
-  },
+    icon: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737273155/CEIC/LogoNavBar_kbtiba.svg"
+   },
 };
 
 

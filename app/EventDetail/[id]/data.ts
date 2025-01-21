@@ -328,7 +328,7 @@ export interface ContactPerson {
       registrationLink: "https://bit.ly/RegistrationIPIC_CEICXIII",
       contactPersons: [
         { name: "Kirana Pramesti R", phone: "+62895622588928" },
-        { name: "Aliyyah Syifa Nur Hasna", phone: "+2210408388" }
+        { name: "Aliyyah Syifa Nur Hasna", phone: "+6282210408388"}
 
 
       ]

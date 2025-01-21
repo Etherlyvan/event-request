@@ -55,7 +55,8 @@ export const events: EventDetail[] = [
       src: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
       alt: "Bridge Design Logo"
     },
-    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737431047/CEIC/ibicbg_cg6ox4.jpg"
+    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg"
+   
     
   },  
   {
@@ -109,7 +110,7 @@ export const events: EventDetail[] = [
       description: "This BIM Workshop event started in 2024 at the Civil Engineering Innovation Contest (CEIC). BIM automates the use of information, with the creation of information already automated. Moving from 3D modeling software, BIM demands the accuracy and ability to manage extensive information, along with practical compatibility for collaborative workflows. In today's digital construction era, a deep understanding of BIM is essential. To successfully navigate this landscape, participating in a BIM workshop is crucial. This workshop offers a practical opportunity to understand the complexities of BIM, ensuring that you are well prepared to excel in the digital era of Construction"
     },
     logo: {
-      src: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg",
+      src: " https://res.cloudinary.com/dbftqxgwn/image/upload/v1737273155/CEIC/LogoNavBar_kbtiba.svg",
       alt: "BIM Workshop Logo"
     },
     background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737351634/CEIC/bimbgsvg_u43vcu.svg"

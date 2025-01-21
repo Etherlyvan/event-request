@@ -7,10 +7,9 @@ const About = () => {
     <section className={styles.about}>
       <div className={styles.container}>
         <div className={styles.leftContent}>
-          <h1>Get to Know</h1>
           <div className={styles.ceicText}>
             <Image 
-              src="https://res.cloudinary.com/dbftqxgwn/image/upload/v1737281990/CEIC/aboutlogo_l9prfb.svg"
+              src="https://res.cloudinary.com/dbftqxgwn/image/upload/v1737450417/Get_to_Know_CEIC_vzlyuk.svg"
               alt="CEIC 2025"
               width={400}
               height={150}

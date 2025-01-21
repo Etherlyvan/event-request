@@ -233,8 +233,8 @@ export interface TimelineItem {
       {
         eventId: 'bimworkshop',
         items: [          
-            { date: 'May 25th 2025', title: 'BIM Workshop Series', color: 'coral' },
-          { date: 'May 27th 2025', title: 'BIM Workshop Series', color: 'turquoise' }
+            { date: 'April 18th 2025', title: 'BIM Workshop Series', color: 'coral' },
+          { date: 'April 20th 2025', title: 'BIM Workshop Series', color: 'turquoise' }
         ],
         venue: {
           name: 'Gedung Teknik Sipil Universitas Diponegoro/ Online via Zoom Meetings',

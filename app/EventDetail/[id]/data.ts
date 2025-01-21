@@ -191,18 +191,18 @@ export interface TimelineItem {
     },
     {
       eventId: 'ipic',
-        items: [
-          { date: 'January 22th - February 23th 2025', title: 'Open Registration dan Pengumpulan Abstract', color: 'coral' },
-          { date: 'March 5th 2025', title: 'Abstract Passes Announcement', color: 'turquoise' },
-          { date: 'March 6th - March 19th 2025', title: 'Pengumpulan Full Paper Batch 1', color: 'coral' },
-          { date: 'March 20th - April 16th 2025', title: 'Pengumpulan Full Paper Batch 2', color: 'turquoise' },
-          { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR', color: 'coral' },
-          { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
-          { date: 'May 3rd - May 9th 2025', title: 'Infograph Collecting', color: 'coral' },
-          { date: 'May 10th - May 14th 2025', title: 'Favourite Infograph Voting + PPT Collecting', color: 'turquoise' },
-          { date: 'May 16th 2025', title: 'Final (Presentation Day)', color: 'coral' },
-          { date: 'May 17th 2025', title: 'Winner Announcement', color: 'turquoise' }
-          ]
+      items: [
+        { date: 'January 22th - February 23th 2025', title: 'Open Registration and Abstract Submission', color: 'coral' },
+        { date: 'March 5th 2025', title: 'Abstract Passes Announcement', color: 'turquoise' },
+        { date: 'March 6th - March 19th 2025', title: 'Full Paper Submission Batch 1', color: 'coral' },
+        { date: 'March 20th - April 16th 2025', title: 'Full Paper Submission Batch 2', color: 'turquoise' },
+        { date: 'May 1st 2025', title: 'Finalist Announcement and TOR Release', color: 'coral' },
+        { date: 'May 2nd 2025', title: 'Technical Meeting for Finalists', color: 'turquoise' },
+        { date: 'May 3rd - May 9th 2025', title: 'Infographic Submission', color: 'coral' },
+        { date: 'May 10th - May 14th 2025', title: 'Favorite Infographic Voting + PPT Submission', color: 'turquoise' },
+        { date: 'May 16th 2025', title: 'Final (Presentation Day)', color: 'coral' },
+        { date: 'May 17th 2025', title: 'Winner Announcement', color: 'turquoise' }
+      ]
     },
       {
         eventId: 'semnas',

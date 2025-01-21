@@ -173,7 +173,7 @@ export const events: Event[] = [
     title: "BIM Workshop",
     theme: "\"Integrating BIM Technology to Achieve SDGs-Based Infrastructure Resilience\"", // Sesuai dengan eventDetails.BIM.tema
     description: "Workshop praktis tentang implementasi teknologi BIM dalam mencapai infrastruktur berkelanjutan.",
-    date: "2025-02-22",
+    date: "2025-04-18",
     slug: "bimworkshop", 
     logo: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296427/CEIC/bimworkshop_rjbnpx.svg",
     image: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737430054/CEIC/ibiccard2_awictb.svg"

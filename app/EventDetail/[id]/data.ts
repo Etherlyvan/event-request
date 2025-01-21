@@ -327,8 +327,8 @@ export interface ContactPerson {
       proposal: "https://bit.ly/BerkasIPIC_CEICXIII", 
       registrationLink: "https://bit.ly/RegistrationIPIC_CEICXIII",
       contactPersons: [
-        { name: "Kirana Pramesti R", phone: "+0895622588928" },
-        { name: "Aliyyah Syifa Nur Hasna", phone: "+082210408388" }
+        { name: "Kirana Pramesti R", phone: "+62895622588928" },
+        { name: "Aliyyah Syifa Nur Hasna", phone: "+2210408388" }
 
 
       ]
@@ -338,8 +338,8 @@ export interface ContactPerson {
         proposal: "https://bit.ly/AdditionalFilesforIDIC", 
         registrationLink: "https://bit.ly/RegistrationIDIC_CEICXIII",
         contactPersons: [
-          { name: "Arlinda", phone: "089518279078" },
-          { name: "Zamdi Ahmad Majid", phone: "081228925677" }
+          { name: "Arlinda", phone: "+6289518279078" },
+          { name: "Zamdi Ahmad Majid", phone: "+6281228925677" }
         ]
     },
     "ibdc": {

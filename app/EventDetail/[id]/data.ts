@@ -322,47 +322,47 @@ export interface ContactPerson {
   
   export const eventRequirements: Record<string, EventRequirements> = {
     "ibic": {
-      termOfReference: "https://drive.google.com/file/bridge-tor",
-      registrationForm: "https://drive.google.com/file/bridge-form",
-      proposal: "https://drive.google.com/file/bridge-proposal",
-      registrationLink: "https://forms.gle/bridge-registration",
+      termOfReference: "https://bit.ly/AdditionalFilesForIBIC",
+      registrationForm: "https://bit.ly/AdditionalFilesForIBIC",
+      proposal: "https://bit.ly/AdditionalFilesForIBIC",
+      registrationLink: "https://bit.ly/RegistrationIBIC_CEICXIII",
       contactPersons: [
         { name: "John", phone: "+6281234567890" },
         { name: "Jane", phone: "+6289876543210" }
       ]
     },
     "ipic": {
-      termOfReference: "https://drive.google.com/file/earthquake-tor",
-      registrationForm: "https://drive.google.com/file/earthquake-form",
-      proposal: "https://drive.google.com/file/earthquake-proposal", 
-      registrationLink: "https://forms.gle/earthquake-registration",
+      termOfReference: "https://bit.ly/AdditionalFilesforIDIC",
+      registrationForm: "https://bit.ly/AdditionalFilesforIDIC",
+      proposal: "https://bit.ly/AdditionalFilesforIDIC", 
+      registrationLink: "https://bit.ly/RegistrationIPIC_CEICXIII",
       contactPersons: [
         { name: "Mike", phone: "+6282345678901" },
         { name: "Sarah", phone: "+6288765432109" }
       ]
     },
     "idic": {
-        termOfReference: "https://drive.google.com/file/earthquake-tor",
-        registrationForm: "https://drive.google.com/file/earthquake-form",
-        proposal: "https://drive.google.com/file/earthquake-proposal", 
-        registrationLink: "https://forms.gle/earthquake-registration",
+        termOfReference: "https://bit.ly/AdditionalFilesforIDIC",
+        registrationForm: "https://bit.ly/AdditionalFilesforIDIC",
+        proposal: "https://bit.ly/AdditionalFilesforIDIC", 
+        registrationLink: "https://bit.ly/RegistrationIDIC_CEICXIII",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },
           { name: "Sarah", phone: "+6288765432109" }
         ]
     },
     "ibdc": {
-        termOfReference: "https://drive.google.com/file/earthquake-tor",
-        registrationForm: "https://drive.google.com/file/earthquake-form",
-        proposal: "https://drive.google.com/file/earthquake-proposal", 
-        registrationLink: "https://forms.gle/earthquake-registration",
+        termOfReference: "https://bit.ly/AdditionalFilesForIBDC",
+        registrationForm: "https://bit.ly/AdditionalFilesForIBDC",
+        proposal: "https://bit.ly/AdditionalFilesForIBDC", 
+        registrationLink: "https://bit.ly/RegistrationIBDC_CEICXIII",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },
           { name: "Sarah", phone: "+6288765432109" }
         ]
     },
     "bimworkshop": {
-        registrationLink: "https://forms.gle/earthquake-registration",
+        registrationLink: "https://bit.ly/RegistrationBIMWorkshop_CEICXIII",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },
           { name: "Sarah", phone: "+6288765432109" }
@@ -377,7 +377,7 @@ export interface ContactPerson {
     },
     "semnas": {
 
-        registrationLink: "https://forms.gle/earthquake-registration",
+        registrationLink: "https://bit.ly/RegistrationNationalSeminar_CEICXIII",
         contactPersons: [
           { name: "Mike", phone: "+6282345678901" },
           { name: "Sarah", phone: "+6288765432109" }

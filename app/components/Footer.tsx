@@ -32,9 +32,9 @@ const Footer = () => {
         
         <div className={styles.contactSection}>
           <h3>Contact Us</h3>
-          <p>GedungTeknik Sipil, Kampus Universitas Diponegoro, Semarang, 1624</p>
+          <p>Gedung Teknik Sipil, Kampus Universitas Diponegoro, Semarang, 1624</p>
           <p>+62</p>
-          <p>ceicseason.xiii@gmail.</p>
+          <p>ceicseason.xiii@gmail.com</p>
         </div>
         
 

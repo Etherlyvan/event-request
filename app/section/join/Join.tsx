@@ -34,13 +34,13 @@ const JoinSection: React.FC<JoinSectionProps> = ({ eventId, requirements }) => {
                 <li>
                     <a href={requirements.registrationForm} target="_blank" rel="noopener noreferrer">
                     Registration Form
-                    </a>
+                    </a>  
                 </li>
                 )}
                 {requirements.proposal && (
                 <li>
                     <a href={requirements.proposal} target="_blank" rel="noopener noreferrer">
-                    Proposal
+                    Additional file
                     </a>
                 </li>
                 )}

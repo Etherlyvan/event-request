@@ -26,7 +26,7 @@ export const events: EventDetail[] = [
           src: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296428/CEIC/IBDc_r5ktrj.svg",
           alt: "IBDC Logo"
         },
-        background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737347094/CEIC/dam1_b3mmu6.svg"
+        background:"https://res.cloudinary.com/dbftqxgwn/image/upload/v1737431046/CEIC/ibdcbg_bttt0b.webp"
     },
   {
     id: "idic",
@@ -49,13 +49,14 @@ export const events: EventDetail[] = [
     subtitle: "Smart Bridges and Disaster Resilience Using BIM Technology Innovation to Achieve Sustainable Development Goals",
     about: {
       title: "About",
-      description: "Bridge infrastructure is critical to improving accessibility, connectivity, and driving economic growth. As the demand and challenges in bridge construction increase, innovative solutions are key to overcoming these barriers. Advances in technology offer a path to efficient, innovative, and sustainable bridge construction. The International Bridge Design Contest (IBDC) provides an opportunity to hone participants' skills in designing bridges that are not only smart but also resilient to disasters and in line with the principles of sustainable development."
+      description: "One of the important challenges in achieving the Sustainable Development Goals (SDGs) is to create infrastructure that not only meets current needs but is also sustainable in the future. The use of Building Information Modeling (BIM) technology allows for more efficient, effective and sustainable planning, design and implementation of infrastructure projects. By seeing this opportunity, the International BIM Innovation Contest Civil Engineering Innovation Contest (IBIC) is here as a step to provide insight and improve students' BIM competencies in facing future challenges in strengthening sustainable infrastructure resilience."
     },
     logo: {
       src: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737296431/CEIC/bic_l49rpm.svg",
       alt: "Bridge Design Logo"
     },
-    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737431046/CEIC/ibdcbg_bttt0b.webp"
+    background: "https://res.cloudinary.com/dbftqxgwn/image/upload/v1737431047/CEIC/ibicbg_cg6ox4.jpg"
+    
   },  
   {
     id: "ipic",
@@ -143,75 +144,67 @@ export interface TimelineItem {
     {
       eventId: 'ibdc',
       items: [
-        { date: 'January 22th - February 4th 2025', title: 'Open Registration Batch 1', color: 'coral' },
-        { date: 'February 5th - March 5th 2025', title: 'Open Registration Batch 2', color: 'turquoise' },
-        { date: 'March 7th 2025', title: 'Rilis Studi Kasus', color: 'coral' },
-        { date: 'March 8th 2025', title: 'Technical Meeting Peserta', color: 'coral' },
-        { date: 'March 9th - April 7th 2025', title: 'Pengerjaan dan Pengumpulan Proposal Lomba', color: 'coral' },
-        { date: 'April 4th 2025', title: 'Technical Meeting Juri', color: 'turquoise' },
-        { date: 'April 7th - April 30th 2025', title: 'Penilaian Makalah Lomba', color: 'turquoise' },
-        { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR Final Element', color: 'coral' },
-        { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
-        { date: 'May 12th 2025', title: 'Technical Meeting Juri (Final)', color: 'turquoise' },
-        { date: 'May 11th 2025', title: 'Pengumpulan Video dan Poster', color: 'coral' },
-        { date: 'May 14th 2025', title: 'Pengumpulan PPT Final', color: 'coral' },
-        { date: 'May 16th 2025', title: 'Final Lomba', color: 'turquoise' },
-        { date: 'May 17th 2025', title: 'Pengumuman Juara', color: 'coral' }
+        { date: 'January 22 – February 4, 2025', title: 'First Wave Registration', color: 'coral' },
+        { date: 'February 5 – March 5, 2025', title: 'Second Wave Registration', color: 'turquoise' },
+        { date: 'March 7, 2025', title: 'Case Study Release', color: 'coral' },
+        { date: 'March 8, 2025', title: 'Technical Meeting', color: 'coral' },
+        { date: 'March 9 – April 7, 2025', title: 'Proposal Preparation and Submission', color: 'coral' },
+        { date: 'May 1, 2025', title: 'Finalist Announcement', color: 'coral' },
+        { date: 'May 2, 2025', title: 'Technical Meeting for Final', color: 'turquoise' },
+        { date: 'May 11, 2025', title: 'Submission of Finalist Videos and Posters', color: 'coral' },
+        { date: 'May 14, 2025', title: 'Submission of Finalist PPTs', color: 'coral' },
+        { date: 'May 16, 2025', title: 'Final Stage', color: 'turquoise' },
+        { date: 'May 17, 2025', title: 'Winner Announcement', color: 'coral' }
       ]
     },
     {
-        eventId: 'idic',
-        items: [
-          { date: 'January 22th - February 4th 2025', title: 'Open Registration Batch 1', color: 'coral' },
-          { date: 'February 5th - March 5th 2025', title: 'Open Registration Batch 2', color: 'turquoise' },
-          { date: 'March 7th 2025', title: 'Rilis Studi Kasus', color: 'coral' },
-          { date: 'March 8th 2025', title: 'Technical Meeting Peserta', color: 'coral' },
-          { date: 'March 9th - April 7th 2025', title: 'Pengerjaan dan Pengumpulan Proposal Lomba', color: 'coral' },
-          { date: 'April 4th 2025', title: 'Technical Meeting Juri', color: 'turquoise' },
-          { date: 'April 7th - April 30th 2025', title: 'Penilaian Makalah Lomba', color: 'turquoise' },
-          { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR Final Semenet', color: 'coral' },
-          { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
-          { date: 'May 12th 2025', title: 'Technical Meeting Juri (Final)', color: 'turquoise' },
-          { date: 'May 11th 2025', title: 'Pengumpulan Video dan Poster', color: 'coral' },
-          { date: 'May 14th 2025', title: 'Pengumpulan PPT Final', color: 'coral' },
-          { date: 'May 16th 2025', title: 'Final Lomba', color: 'turquoise' },
-          { date: 'May 17th 2025', title: 'Pengumuman Juara', color: 'coral' }
-        ]
-      },
-      {
-        eventId: 'ibic',
-        items: [
-          { date: 'January 22th - February 4th 2025', title: 'Open Registration Batch 1', color: 'coral' },
-          { date: 'February 5th - March 5th 2025', title: 'Open Registration Batch 2', color: 'turquoise' },
-          { date: 'March 7th 2025', title: 'Rilis Studi Kasus', color: 'coral' },
-          { date: 'March 8th 2025', title: 'Technical Meeting Peserta', color: 'coral' },
-          { date: 'March 9th - April 7th 2025', title: 'Pengerjaan dan Pengumpulan Proposal Lomba', color: 'coral' },
-          { date: 'April 4th 2025', title: 'Technical Meeting Juri', color: 'turquoise' },
-          { date: 'April 7th - April 30th 2025', title: 'Penilaian Makalah Lomba', color: 'turquoise' },
-          { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR Final Semenet', color: 'coral' },
-          { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
-          { date: 'May 12th 2025', title: 'Technical Meeting Juri (Final)', color: 'turquoise' },
-          { date: 'May 11th 2025', title: 'Pengumpulan Video dan Poster', color: 'coral' },
-          { date: 'May 14th 2025', title: 'Pengumpulan PPT Final', color: 'coral' },
-          { date: 'May 16th 2025', title: 'Final Lomba', color: 'turquoise' },
-          { date: 'May 17th 2025', title: 'Pengumuman Juara', color: 'coral' }
-        ]
-      },
-      {
-        eventId: 'ipic',
-        items: [
-          { date: 'January 22th - February 23th 2025', title: 'Open Registration dan Pengumpulan Abstract', color: 'coral' },
-          { date: 'March 5th 2025', title: 'Abstract Passes Announcement', color: 'turquoise' },
-          { date: 'March 6th - March 19th 2025', title: 'Pengumpulan Full Paper Batch 1', color: 'coral' },
-          { date: 'March 20th - April 16th 2025', title: 'Pengumpulan Full Paper Batch 2', color: 'turquoise' },
-          { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR', color: 'coral' },
-          { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
-          { date: 'May 3rd - May 9th 2025', title: 'Infograph Collecting', color: 'coral' },
-          { date: 'May 10th - May 14th 2025', title: 'Favourite Infograph Voting + PPT Collecting', color: 'turquoise' },
-          { date: 'May 16th 2025', title: 'Final (Presentation Day)', color: 'coral' },
-          { date: 'May 17th 2025', title: 'Winner Announcement', color: 'turquoise' }
-        ]
-      },
+      eventId: 'idic',
+      items: [
+        { date: 'January 22 – February 4, 2025', title: 'First Wave Registration', color: 'coral' },
+        { date: 'February 5 – March 5, 2025', title: 'Second Wave Registration', color: 'turquoise' },
+        { date: 'March 7, 2025', title: 'Case Study Release', color: 'coral' },
+        { date: 'March 8, 2025', title: 'Technical Meeting', color: 'coral' },
+        { date: 'March 9 – April 7, 2025', title: 'Proposal Preparation and Submission', color: 'coral' },
+        { date: 'May 1, 2025', title: 'Finalist Announcement', color: 'coral' },
+        { date: 'May 2, 2025', title: 'Technical Meeting for Final', color: 'turquoise' },
+        { date: 'May 11, 2025', title: 'Submission of Finalist Videos and Posters', color: 'coral' },
+        { date: 'May 14, 2025', title: 'Submission of Finalist PPTs', color: 'coral' },
+        { date: 'May 16, 2025', title: 'Final Stage', color: 'turquoise' },
+        { date: 'May 17, 2025', title: 'Winner Announcement', color: 'coral' }
+      ]
+    },
+    {
+      eventId: 'ibic',
+      items: [
+        { date: 'January 22 – February 4, 2025', title: 'First Wave Registration', color: 'coral' },
+        { date: 'February 5 – March 5, 2025', title: 'Second Wave Registration', color: 'turquoise' },
+        { date: 'March 7, 2025', title: 'Case Study Release', color: 'coral' },
+        { date: 'March 8, 2025', title: 'Technical Meeting', color: 'coral' },
+        { date: 'March 9 – April 7, 2025', title: 'Proposal Preparation and Submission', color: 'coral' },
+        { date: 'May 1, 2025', title: 'Finalist Announcement', color: 'coral' },
+        { date: 'May 2, 2025', title: 'Technical Meeting for Final', color: 'turquoise' },
+        { date: 'May 11, 2025', title: 'Submission of Finalist Videos and Posters', color: 'coral' },
+        { date: 'May 14, 2025', title: 'Submission of Finalist PPTs', color: 'coral' },
+        { date: 'May 16, 2025', title: 'Final Stage', color: 'turquoise' },
+        { date: 'May 17, 2025', title: 'Winner Announcement', color: 'coral' }
+      ]
+    },
+    {
+      eventId: 'ipic',
+      items: [
+        { date: 'January 22 – February 4, 2025', title: 'First Wave Registration', color: 'coral' },
+        { date: 'February 5 – March 5, 2025', title: 'Second Wave Registration', color: 'turquoise' },
+        { date: 'March 7, 2025', title: 'Case Study Release', color: 'coral' },
+        { date: 'March 8, 2025', title: 'Technical Meeting', color: 'coral' },
+        { date: 'March 9 – April 7, 2025', title: 'Proposal Preparation and Submission', color: 'coral' },
+        { date: 'May 1, 2025', title: 'Finalist Announcement', color: 'coral' },
+        { date: 'May 2, 2025', title: 'Technical Meeting for Final', color: 'turquoise' },
+        { date: 'May 11, 2025', title: 'Submission of Finalist Videos and Posters', color: 'coral' },
+        { date: 'May 14, 2025', title: 'Submission of Finalist PPTs', color: 'coral' },
+        { date: 'May 16, 2025', title: 'Final Stage', color: 'turquoise' },
+        { date: 'May 17, 2025', title: 'Winner Announcement', color: 'coral' }
+      ]
+    },
       {
         eventId: 'semnas',
         items: [
@@ -322,43 +315,41 @@ export interface ContactPerson {
   
   export const eventRequirements: Record<string, EventRequirements> = {
     "ibic": {
-      termOfReference: "https://bit.ly/AdditionalFilesForIBIC",
-      registrationForm: "https://bit.ly/AdditionalFilesForIBIC",
+      termOfReference: "https://drive.google.com/drive/folders/1luh7dwqOM3S1Z6iDbJC8YH89x7H-C2yl",
       proposal: "https://bit.ly/AdditionalFilesForIBIC",
       registrationLink: "https://bit.ly/RegistrationIBIC_CEICXIII",
       contactPersons: [
-        { name: "John", phone: "+6281234567890" },
-        { name: "Jane", phone: "+6289876543210" }
+        { name: "Muhammad Raihan Harsaputra", phone: "+62 895-6204-81888" },
+        { name: "Sifa Alega Pasya", phone: "+62 882-1641-5371" }
       ]
     },
     "ipic": {
-      termOfReference: "https://bit.ly/AdditionalFilesforIDIC",
-      registrationForm: "https://bit.ly/AdditionalFilesforIDIC",
-      proposal: "https://bit.ly/AdditionalFilesforIDIC", 
+      termOfReference: "https://drive.google.com/drive/folders/1Ewtn--A1KWTDQ_Bp2NBTg652LzqCXASb",
+      proposal: "https://bit.ly/BerkasIPIC_CEICXIII", 
       registrationLink: "https://bit.ly/RegistrationIPIC_CEICXIII",
       contactPersons: [
-        { name: "Mike", phone: "+6282345678901" },
-        { name: "Sarah", phone: "+6288765432109" }
+        { name: "Kirana Pramesti R", phone: "+0895622588928" },
+        { name: "Aliyyah Syifa Nur Hasna", phone: "+082210408388" }
+
+
       ]
     },
     "idic": {
-        termOfReference: "https://bit.ly/AdditionalFilesforIDIC",
-        registrationForm: "https://bit.ly/AdditionalFilesforIDIC",
+        termOfReference: "https://drive.google.com/drive/folders/1VHjep0gcMrFS42QPBBb4BlCBhdmSzDA-",
         proposal: "https://bit.ly/AdditionalFilesforIDIC", 
         registrationLink: "https://bit.ly/RegistrationIDIC_CEICXIII",
         contactPersons: [
-          { name: "Mike", phone: "+6282345678901" },
-          { name: "Sarah", phone: "+6288765432109" }
+          { name: "Arlinda", phone: "089518279078" },
+          { name: "Zamdi Ahmad Majid", phone: "081228925677" }
         ]
     },
     "ibdc": {
-        termOfReference: "https://bit.ly/AdditionalFilesForIBDC",
-        registrationForm: "https://bit.ly/AdditionalFilesForIBDC",
+        termOfReference: "https://drive.google.com/drive/folders/1kPIHEwF8ORUp5Jt1IRA-HoaLrSVcBE2P",
         proposal: "https://bit.ly/AdditionalFilesForIBDC", 
         registrationLink: "https://bit.ly/RegistrationIBDC_CEICXIII",
         contactPersons: [
-          { name: "Mike", phone: "+6282345678901" },
-          { name: "Sarah", phone: "+6288765432109" }
+          { name: "Thifal", phone: "+6289524574454" },
+          { name: "Icad", phone: "+6285711307412" }
         ]
     },
     "bimworkshop": {
@@ -379,8 +370,8 @@ export interface ContactPerson {
 
         registrationLink: "https://bit.ly/RegistrationNationalSeminar_CEICXIII",
         contactPersons: [
-          { name: "Mike", phone: "+6282345678901" },
-          { name: "Sarah", phone: "+6288765432109" }
+          { name: "Ayesha", phone: " +6282180888643" },
+          { name: "Uli ", phone: "+6288216748367" }
         ]
     }
     // Tambahkan event lainnya sesuai kebutuhan

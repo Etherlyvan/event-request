@@ -191,19 +191,18 @@ export interface TimelineItem {
     },
     {
       eventId: 'ipic',
-      items: [
-        { date: 'January 22 – February 4, 2025', title: 'First Wave Registration', color: 'coral' },
-        { date: 'February 5 – March 5, 2025', title: 'Second Wave Registration', color: 'turquoise' },
-        { date: 'March 7, 2025', title: 'Case Study Release', color: 'coral' },
-        { date: 'March 8, 2025', title: 'Technical Meeting', color: 'coral' },
-        { date: 'March 9 – April 7, 2025', title: 'Proposal Preparation and Submission', color: 'coral' },
-        { date: 'May 1, 2025', title: 'Finalist Announcement', color: 'coral' },
-        { date: 'May 2, 2025', title: 'Technical Meeting for Final', color: 'turquoise' },
-        { date: 'May 11, 2025', title: 'Submission of Finalist Videos and Posters', color: 'coral' },
-        { date: 'May 14, 2025', title: 'Submission of Finalist PPTs', color: 'coral' },
-        { date: 'May 16, 2025', title: 'Final Stage', color: 'turquoise' },
-        { date: 'May 17, 2025', title: 'Winner Announcement', color: 'coral' }
-      ]
+        items: [
+          { date: 'January 22th - February 23th 2025', title: 'Open Registration dan Pengumpulan Abstract', color: 'coral' },
+          { date: 'March 5th 2025', title: 'Abstract Passes Announcement', color: 'turquoise' },
+          { date: 'March 6th - March 19th 2025', title: 'Pengumpulan Full Paper Batch 1', color: 'coral' },
+          { date: 'March 20th - April 16th 2025', title: 'Pengumpulan Full Paper Batch 2', color: 'turquoise' },
+          { date: 'May 1st 2025', title: 'Pengumuman Finalis dan Rilis TOR', color: 'coral' },
+          { date: 'May 2nd 2025', title: 'Technical Meeting Finalist', color: 'turquoise' },
+          { date: 'May 3rd - May 9th 2025', title: 'Infograph Collecting', color: 'coral' },
+          { date: 'May 10th - May 14th 2025', title: 'Favourite Infograph Voting + PPT Collecting', color: 'turquoise' },
+          { date: 'May 16th 2025', title: 'Final (Presentation Day)', color: 'coral' },
+          { date: 'May 17th 2025', title: 'Winner Announcement', color: 'turquoise' }
+          ]
     },
       {
         eventId: 'semnas',
@@ -355,15 +354,15 @@ export interface ContactPerson {
     "bimworkshop": {
         registrationLink: "https://bit.ly/RegistrationBIMWorkshop_CEICXIII",
         contactPersons: [
-          { name: "Mike", phone: "+6282345678901" },
-          { name: "Sarah", phone: "+6288765432109" }
+          { name: "Daffa", phone: "+6285947422485" },
+          { name: "Azka Al-Afa", phone: "+6285950281765" }
         ]
     },
     "companyexpo": {
         registrationLink: "https://forms.gle/earthquake-registration",
         contactPersons: [
-          { name: "Mike", phone: "+6282345678901" },
-          { name: "Sarah", phone: "+6288765432109" }
+          { name: "Aurel", phone: "+628813795431" },
+          { name: "Bagus Adhitya", phone: "+628821519744" }
         ]
     },
     "semnas": {

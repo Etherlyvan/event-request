@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <img src="/ceic_herotext.svg" alt="CEIC The 13th Season" className={styles.titleImage} />
+        <img src="https://res.cloudinary.com/dbftqxgwn/image/upload/v1737449864/Tulisann_CEIC_f765g6.svg" alt="CEIC The 13th Season" className={styles.titleImage} />
         <div className={styles.buttons}>
           <a href="#event" onClick={handleInternalLink} className={styles.participate} role="button">Participate NOW</a>
           <a href="#about" onClick={handleInternalLink} className={styles.more} role="button">See more...</a>

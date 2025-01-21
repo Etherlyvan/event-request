@@ -31,7 +31,7 @@ export const events: EventDetail[] = [
   {
     id: "idic",
     title: "International Dam Innovation Contest",
-    subtitle: "Smart and Sustainable Dam Construction by Leveraging Digitalization to Optimize Operations and Maintenance in Support of the SDGs",
+    subtitle: "Smart and Sustainable Dam Innovation by Leveraging Digitalization to Optimize Operations and Maintenance in Support of SDGs",
     about: {
       title: "About",
       description: "As global environmental challenges increase, the need for innovative and sustainable solutions becomes more urgent. The International Dam Innovation Contest (IDIC) invites students to create ideas that change the way civil engineering is viewed in the field of water structures, especially dams. The competition includes innovations in efficient dam design, advanced digital water management technologies, environmentally friendly materials, and solutions for flood mitigation and optimal use of water resources. The ultimate goal is to create resilient and sustainable infrastructure for the future."
@@ -46,7 +46,7 @@ export const events: EventDetail[] = [
   {
     id: "ibic",
     title: "International Bridge Design Contest",
-    subtitle: "Smart Bridges and Disaster Resilience Using BIM Technology Innovation to Achieve Sustainable Development Goals",
+    subtitle: "Optimizing BIM to Achieve Sustainable Development Goals: Integrating Technology for Collaborative Green Building and Resilient Infrastructure",
     about: {
       title: "About",
       description: "One of the important challenges in achieving the Sustainable Development Goals (SDGs) is to create infrastructure that not only meets current needs but is also sustainable in the future. The use of Building Information Modeling (BIM) technology allows for more efficient, effective and sustainable planning, design and implementation of infrastructure projects. By seeing this opportunity, the International BIM Innovation Contest Civil Engineering Innovation Contest (IBIC) is here as a step to provide insight and improve students' BIM competencies in facing future challenges in strengthening sustainable infrastructure resilience."
@@ -354,15 +354,16 @@ export interface ContactPerson {
     "bimworkshop": {
         registrationLink: "https://bit.ly/RegistrationBIMWorkshop_CEICXIII",
         contactPersons: [
-          { name: "Daffa", phone: "+6285947422485" },
-          { name: "Azka Al-Afa", phone: "+6285950281765" }
+          { name: "Aurel", phone: "+628813795431" },
+          { name: "Bagus Adhitya", phone: "+628821519744" }
+
         ]
     },
     "companyexpo": {
         registrationLink: "https://forms.gle/earthquake-registration",
         contactPersons: [
-          { name: "Aurel", phone: "+628813795431" },
-          { name: "Bagus Adhitya", phone: "+628821519744" }
+          { name: "Daffa", phone: "+6285947422485" },
+          { name: "Azka Al-Afa", phone: "+6285950281765" }
         ]
     },
     "semnas": {
